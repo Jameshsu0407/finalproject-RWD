@@ -3,9 +3,6 @@ $color_blue: #282f44
 $color_brown: #e6af2e 
 $color_yellow: #f5d061 
 $color_white: #ececec
-
-$inter_color_orange: #ef8333
-$inter_color_blue: #1a68b7
 // -------------------------------
 
 *
@@ -14,7 +11,7 @@ $inter_color_blue: #1a68b7
 // debug
 // header
 //   display: none
-// #section_about, #section_service, #section_works, section#section_contect,footer,.navbar
+// #section_about, #section_service
 //   display: none
 // *
 //   border: 1px solid #000 !important
@@ -34,9 +31,7 @@ html,body
   font-size: 16px
   position: relative
   background-color: $color_white
-body
-  margin: 0
-  padding: 0
+
 .show
   opacity: 1
 .hide
@@ -72,11 +67,8 @@ body
 header
   position: relative
   background-color: $color_blue
-  color: $color_white
   text-align: center
-  padding: 250px 0
-  h4
-    font-size: 150px
+  
   .icon
     width: 80%
     max-width: 250px
@@ -127,6 +119,7 @@ nav.navbar.at_top
   i
     font-size: 30px
     color: $color_white
+
   
 .drop_down
   background-color: $color_white
@@ -139,9 +132,6 @@ nav.navbar.at_top
 .navbar-toggler:focus,.navbar-toggler:active,.navbar-toggler-icon:focus
     outline: none
     box-shadow: none
-
-.logo
-  width: 70%
 
 // -------------------------------
 section
@@ -159,7 +149,7 @@ section#section_about
     
     .r1text
       font-size: 80px
-      font-weight: 800
+      font-weight: 500
       margin: 0
     .r2text
       font-size: 35px
@@ -229,21 +219,20 @@ section#section_service
     text-align: center
   h3
     color: $color_brown
-    font-weight: 600
   .icon_service
     width: 60%
 // -------------------------------  
 section#section_works
   background-color: $color_white
-  // .marginbottom
-  //   position: absolute
-  //   width: 95%
-  //   top: 95%
-  //   right: -20px
-  //   animation: upin 2s both
-  //   z-index: 5
-  //   @media screen and ( max-width: 576px )
-  //     top: calc( 100% - 2px )
+  .marginbottom
+    position: absolute
+    width: 95%
+    top: 95%
+    right: -20px
+    animation: upin 2s both
+    z-index: 5
+    @media screen and ( max-width: 576px )
+      top: calc( 100% - 2px )
   .work
     height: 230px
     cursor: pointer
@@ -281,104 +270,8 @@ section#section_works
       @media screen and ( max-width: 576px)
         height: auto
         width: 110%
-// -------------------------------       
-#section_workers
-  background-color: $color_white
-  .marginbottom
-    position: absolute
-    width: 95%
-    top: 95%
-    right: -20px
-    animation: upin 2s both
-    z-index: 5
-    @media screen and ( max-width: 576px )
-      top: calc( 100% - 2px )
-  a
-    color: initial
-    text-decoration: none
-  .box
-    width: 380px
-    background-color: $color_white
-    box-shadow: 0px 0px 35px rgba(0,0,0,0.3)
-    transition: 0.5s
-    margin-left: auto
-    margin-right: auto
-    margin-bottom: 20px
-    h3
-      font-size: 16px
-    &:hover
-      box-shadow: 5px 5px 60px rgba(0,0,0,0.3)
-      transform: translate(-5px,-5px)
-    .top
-      background-image: url(https://images.unsplash.com/photo-1542822038-3a1810a5fb69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80)
-      background-size: cover
-      height: 330px
-      position: relative
-    .top .name
-      position: absolute
-      margin: 0
-      left: 0
-      bottom: 0
-      padding: 5px 15px
-      letter-spacing: 2px
-      color: white
-      font-weight: 300
-      background: linear-gradient(transparent 0%,black 100%)
-      width: 100%
-      box-sizing: border-box
-      padding-top: 30px
-      padding-bottom: 15px
-    .top .name .smalltxt
-      font-size: 14px
-    .top .tag
-      width: 25px
-      height: 50px
-      background-color: $color_brown
-      float: right
-      margin-right: 20px
-    .cirButton
-      width: 100px
-      height: 100px
-      background-image: url("https://scontent.frmq3-2.fna.fbcdn.net/v/t1.0-1/p160x160/92129748_2983502355070968_6390273022703435776_o.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_ohc=zlzWCoLfvi0AX_DZDpT&_nc_ht=scontent.frmq3-2.fna&_nc_tp=6&oh=f97b1e386e8579178620176576ecb382&oe=5EC52D98")
-      background-size: cover
-      border-radius: 50%
-      position: absolute
-      right: 30px
-      bottom: -20px
-    .bottom
-      padding: 20px 20px 50px 20px
-      position: relative
-      li
-        padding: 5px 0
-      h3
-        display: inline-block
-        margin: 0
-      ul
-        list-style: none
-        padding-left: 0
-        margin-top: 10px
-    // .buttons
-    //   margin-top: 30px
-    //   .btn
-    //     display: inline-block
-    //     padding: 10px 25px
-    //     letter-spacing: 2px
-    .btnWebsite
-      background-color: $color_brown
-      position: absolute
-      right: 20px
-      bottom: 15px
-      &:hover
-        background-color: lighten($color_brown,10% )
-    // .btnNews
-    //   float: right
-    //   background-color: #fff
-    //   border: 1px solid #ccc
-    //   transition: 0.5s
-    //   &:hover
-    //     background-color: #eee
-
-
+        
+        
 // ------------------------------- 
 section#section_contect
   background-color: $color_blue
@@ -437,10 +330,9 @@ section#section_contect
 footer#footer
   position: relative
   background-color: $color_brown
-  padding: 20px 0
   text-align: center
   
-  h5
-    color: $color_white
-    margin-bottom: 0
-    font-weight: 400
+  .icon
+    width: 80%
+    max-width: 250px
+    padding: 80px 0px
