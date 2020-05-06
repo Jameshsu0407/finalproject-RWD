@@ -1,3 +1,3 @@
-# wrb_yellow_studio-RWD
-yellow studio
-https://jameshsu0407.github.io/wrb_yellow_studio-RWD/
+#index https://jameshsu0407.github.io/finalproject-RWD/
+
+#james https://jameshsu0407.github.io/finalproject-RWD/james
