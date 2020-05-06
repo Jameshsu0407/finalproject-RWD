@@ -424,13 +424,13 @@ section#section_works .work img {
   }
 }
 
-section#section_contect {
+section#section_contact {
   background-color: #282f44;
   color: #ececec;
   overflow: hidden;
 }
 
-section#section_contect .cat {
+section#section_contact .cat {
   width: 150px;
   position: absolute;
   bottom: 0px;
@@ -439,47 +439,47 @@ section#section_contect .cat {
 }
 
 @media screen and (max-width: 576px) {
-  section#section_contect .cat {
+  section#section_contact .cat {
     width: 100px;
   }
 }
 
-section#section_contect #cat_blue {
+section#section_contact #cat_blue {
   right: 240px;
   z-index: 3;
 }
 
 @media screen and (max-width: 576px) {
-  section#section_contect #cat_blue {
+  section#section_contact #cat_blue {
     right: 140px;
   }
 }
 
-section#section_contect #cat_grey {
+section#section_contact #cat_grey {
   right: 100px;
 }
 
 @media screen and (max-width: 576px) {
-  section#section_contect #cat_grey {
+  section#section_contact #cat_grey {
     right: 0px;
   }
 }
 
-section#section_contect #cat_yellow {
+section#section_contact #cat_yellow {
   right: 170px;
 }
 
 @media screen and (max-width: 576px) {
-  section#section_contect #cat_yellow {
+  section#section_contact #cat_yellow {
     right: 70px;
   }
 }
 
-section#section_contect .mails {
+section#section_contact .mails {
   height: 400px;
 }
 
-section#section_contect .mails .mailbody {
+section#section_contact .mails .mailbody {
   background-color: #ececec;
   color: #282f44;
   padding: 20px;
@@ -490,7 +490,7 @@ section#section_contect .mails .mailbody {
           transform: translateX(-30px);
 }
 
-section#section_contect .mails .mailcover {
+section#section_contact .mails .mailcover {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -501,22 +501,22 @@ section#section_contect .mails .mailcover {
           transform: rotate(5deg) scale(2.2) translate(-50%, -50%);
 }
 
-section#section_contect .mails .mailcover img {
+section#section_contact .mails .mailcover img {
   width: 120%;
 }
 
-section#section_contect input, section#section_contect textarea {
+section#section_contact input, section#section_contact textarea {
   display: block;
   background-color: transparent;
   border: none;
   border: solid 3px #282f44;
 }
 
-section#section_contect input:focus, section#section_contect textarea:focus {
+section#section_contact input:focus, section#section_contact textarea:focus {
   outline: none;
 }
 
-section#section_contect textarea {
+section#section_contact textarea {
   height: 140px;
   width: 100%;
 }
