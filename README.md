@@ -1,2 +1,3 @@
-# finalproject-RWD
-實習期末網站
+# wrb_yellow_studio-RWD
+yellow studio
+https://jameshsu0407.github.io/wrb_yellow_studio-RWD/
