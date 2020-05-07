@@ -8,6 +8,7 @@
   <!-- Bt4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
   <!-- Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700" />
   <!-- style -->
   <link rel="stylesheet" href="./css/style.css" />
@@ -46,7 +47,8 @@
 
   <header id="header_index">
     <div class="container">
-      <img class="icon" src="https://awiclass.monoame.com/img/webpic/w_icon.svg" alt="" />
+      <!-- <img class="icon" src="https://awiclass.monoame.com/img/webpic/w_icon.svg" alt="" /> -->
+      <h1 class="logo">Intersoft</h1>
       <img class="marginbottom mountain" src="https://awiclass.monoame.com/img/margin/m_index.svg" alt="" />
       <div class="explore at_top">EXPLORE</div>
     </div>
@@ -75,7 +77,7 @@
       </div>
       <div class="row">
         <div class="col-sm-8" data-aos="fade-right">
-          <h2 class="r3text">430 MORE SUCCESS CASES</h2>
+          <h2 class="r3text">超過200件成功案例</h2>
         </div>
       </div>
       <div class="clearfix"></div>
@@ -113,23 +115,52 @@
 
   <section id="section_works">
     <!-- <img class="marginbottom mountain" src="https://awiclass.monoame.com/img/margin/m_works.svg" /> -->
-    <div class="container" id="app">
-      <div class="row" v-if="works.length&gt;0">
+    <div class="container">
+      <div class="row">
         <div class="col-12">
           <h1>Works</h1>
         </div>
         <div class="col-sm-6 work big" data-aos="fade-up">
-          <img class="img-fluid" :src="works[1].img" alt="" />
+          <img src="./img/work/work1.png" alt="work" class="img-fluid">
           <div class="texts">
-            <h4 class="title">{{works[1].name}}</h4>
-            <p class="content" v-html="works[1].content.substr(0,40)"></p>
+            <a href="https://www.lourdes.org.tw/social_dialogue/Default.aspx">
+              <h4 class="title">露德-愛滋感染者社會對話實驗</h4>
+            <p class="content">露德基金會跳脫傳統專業諮詢，透過愛滋感染朋友們主體的「聲音」，傳達自身的生命、想法及心情，將生命中的溫度傳達給陌生的彼端，直接幫民眾解答疑惑。</p>
+            </a>
           </div>
         </div>
         <div class="col-sm-6" data-aos="fade-up">
           <div class="row">
-            <div class="col-sm-6 work" v-for="w in works.slice(2,6)"><img :src="w.img" alt="" />
+            <div class="col-sm-6 work">
+              <img src="./img/work/work2.png" alt="work">
               <div class="texts">
-                <h4 class="title">{{w.name}} </h4>
+                <a href="https://www.waker.org.tw/">
+                  <h4 class="title">台灣微客公益行動協會</h4>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6 work">
+              <img src="./img/work/work3.png" alt="work">
+              <div class="texts">
+                <a href="https://goodear.org.tw/">
+                  <h4 class="title">GOODear</h4>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6 work">
+              <img src="./img/work/work4.png" alt="work">
+              <div class="texts">
+                <a href="http://www.ntuchf.org.tw/NTUCHF2019/">
+                  <h4 class="title">越難到達 越要到達</h4>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6 work">
+              <img src="./img/work/work5.png" alt="work">
+              <div class="texts">
+                <a href="https://kids.taipei/index_01.aspx">
+                  <h4 class="title">臺北市政府托育資訊服務網</h4>
+                </a>
               </div>
             </div>
           </div>
