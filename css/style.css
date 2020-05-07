@@ -56,7 +56,7 @@ header {
   text-align: center;
 }
 
-header .logo {
+header .logofont {
   padding: 250px 0;
   color: #ececec;
   font-size: 100px;
@@ -156,6 +156,10 @@ nav.navbar.at_top i {
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
   outline: none;
   box-shadow: none;
+}
+
+.logobrand {
+  width: 60%;
 }
 
 section {
