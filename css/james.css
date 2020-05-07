@@ -561,10 +561,10 @@ body {
   }
   .midbar {
     white-space: nowrap;
-    height: 100px;
+    height: 120px;
   }
   .midbar .personimg {
-    top: 19%;
+    top: 26%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -583,6 +583,30 @@ body {
   .bottom_bar p {
     padding: 10px;
     border-top: solid 1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .midbar {
+    white-space: nowrap;
+    height: 130px;
+  }
+  .midbar .personimg {
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .midbar {
+    white-space: nowrap;
+    height: 130px;
+  }
+  .midbar .personimg {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 /*# sourceMappingURL=james.css.map */
