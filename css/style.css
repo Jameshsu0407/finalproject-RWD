@@ -627,9 +627,8 @@ footer#footer {
   text-align: center;
 }
 
-footer#footer .icon {
-  width: 80%;
-  max-width: 250px;
-  padding: 80px 0px;
+footer#footer .copyright {
+  padding: 10px 0;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
