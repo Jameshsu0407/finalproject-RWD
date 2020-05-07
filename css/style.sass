@@ -67,11 +67,6 @@ header
   background-color: $color_blue
   text-align: center
 
-  // .icon
-  //   width: 80%
-  //   max-width: 250px
-  //   padding: 250px 0px
-  //   text-align: center
   .logo
     padding: 250px 0
     color: $color_white
@@ -85,6 +80,8 @@ header
     bottom: 0
     right: -20px
     animation: upin 2s both
+    @media screen and ( max-width: 1125px )
+      width: 120%
 
   @keyframes upin
     0%
@@ -304,8 +301,10 @@ section#section_workers
     box-shadow: 0 0 20px rgba(0,0,0,0.1)
     margin-right: auto
     margin-left: auto
-    margin-bottom: 10px
+    margin-bottom: 25px
     transition: 0.5s
+    @media screen and ( max-width: 768px )
+      width: 350px
     &:hover
       box-shadow: 10px 10px 30px rgba(0,0,0,0.1)
       transform: translate(-5px,-5px)

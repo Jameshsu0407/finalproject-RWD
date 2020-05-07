@@ -72,6 +72,12 @@ header .marginbottom {
   animation: upin 2s both;
 }
 
+@media screen and (max-width: 1125px) {
+  header .marginbottom {
+    width: 120%;
+  }
+}
+
 @keyframes upin {
   0% {
     bottom: -100px;
@@ -417,8 +423,14 @@ section#section_workers .box {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  section#section_workers .box {
+    width: 350px;
+  }
 }
 
 section#section_workers .box:hover {
