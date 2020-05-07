@@ -46,11 +46,19 @@ body {
   width: 170px;
   height: 170px;
   position: absolute;
-  top: 32%;
+  top: 20%;
   left: 12%;
   background-image: url("https://scontent.frmq3-2.fna.fbcdn.net/v/t1.0-1/p160x160/92129748_2983502355070968_6390273022703435776_o.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_ohc=zlzWCoLfvi0AX_DZDpT&_nc_ht=scontent.frmq3-2.fna&_nc_tp=6&oh=f97b1e386e8579178620176576ecb382&oe=5EC52D98");
   background-size: 100% auto;
   border: solid 4px white;
+  padding: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .midbar .personimg {
+    top: 20%;
+    left: 8%;
+  }
 }
 
 .midbar .names {
@@ -497,7 +505,7 @@ body {
   color: #3B5998;
 }
 
-#bottom_right_0325 .middle .hashtag {
+#bottom_right_0325 .middle .webs .hashtag {
   font-weight: 600;
 }
 
@@ -536,7 +544,7 @@ body {
   left: -2%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .topbar {
     height: 60px;
   }
@@ -556,6 +564,7 @@ body {
     height: 100px;
   }
   .midbar .personimg {
+    top: 19%;
     left: 50%;
     transform: translateX(-50%);
   }
