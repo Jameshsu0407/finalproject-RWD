@@ -447,8 +447,8 @@ section#section_workers .marginbottom {
 section#section_workers .box {
   width: 380px;
   background-color: #ececec;
-  -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   margin-right: auto;
   margin-left: auto;
   -webkit-transition: 0.5s;
@@ -456,8 +456,8 @@ section#section_workers .box {
 }
 
 section#section_workers .box:hover {
-  -webkit-box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.3);
-          box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
   -webkit-transform: translate(-5px, -5px);
           transform: translate(-5px, -5px);
 }
@@ -529,15 +529,15 @@ section#section_workers .box .bottom h3 {
 section#section_workers .box .bottom ul {
   list-style: none;
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 section#section_workers .box .bottom .btn {
   padding: 5px 10px;
   letter-spacing: 2px;
   position: absolute;
-  right: 3%;
-  bottom: 2%;
+  right: 4%;
+  bottom: 8%;
 }
 
 section#section_workers .box .bottom .btnWebsite {
