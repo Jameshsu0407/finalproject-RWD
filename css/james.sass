@@ -280,13 +280,6 @@ body
         opacity: 1
     50%
         opacity: 0.5
-        // width: 2px
-        // height: 2px
-        
-       
-
-
-
 // ----------------------------------------------------------
 // 卡片共同樣式
 .post
@@ -377,12 +370,37 @@ body
                     outline: none
 // ----------------------------------------------------------
 // 個別貼文編輯
+// *
+//     border: 1px solid #000
+#bottom_right_0325
+    .middle
+        .webs
+            margin-bottom: 16px
+            a
+                display: inline-block
+                text-decoration: none
+                color: $color_blue
+        .hashtag
+            font-weight: 600
+
+#bottom_right_0304
+    .middle
+        .hashtag
+            font-weight: 600
+        .pic
+            padding: 10px 0
+            img
+                width: 50%
+                display: block
+                margin: auto
+        
 #bottom_right_0302
         .middle
             display: flex
             justify-content: center
             align-items: center
             flex-direction: column
+
             .pic
                 width: 100%
                 overflow: hidden
@@ -394,6 +412,7 @@ body
                     top: -2%
                     left: -2%
 
+// ----------------------------------------------------------
 
         
 @media screen and (max-width: $break_width)
@@ -410,7 +429,7 @@ body
       color: darken(white,100)
   .midbar
     white-space: nowrap
-    height: 120px
+    height: 100px
     .personimg
       // position: absolute
       left: 50%

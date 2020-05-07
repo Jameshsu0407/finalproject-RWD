@@ -487,6 +487,34 @@ body {
   outline: none;
 }
 
+#bottom_right_0325 .middle .webs {
+  margin-bottom: 16px;
+}
+
+#bottom_right_0325 .middle .webs a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3B5998;
+}
+
+#bottom_right_0325 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0304 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0304 .middle .pic {
+  padding: 10px 0;
+}
+
+#bottom_right_0304 .middle .pic img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
 #bottom_right_0302 .middle {
   display: flex;
   justify-content: center;
@@ -525,7 +553,7 @@ body {
   }
   .midbar {
     white-space: nowrap;
-    height: 120px;
+    height: 100px;
   }
   .midbar .personimg {
     left: 50%;
