@@ -331,88 +331,34 @@ body {
   align-items: center;
 }
 
-#loading .dots {
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
 #loading .dots .dot {
-  margin-left: 3px;
-  margin-right: 3px;
-  transition: 0.5s;
-  animation: onloading 10s;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  background-color: #3B5998;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 #loading .dots .dot1 {
-  color: #718dc8;
-  animation: onloading 10s;
+  animation: onloading infinite 2s;
 }
 
 #loading .dots .dot2 {
-  color: #96abd6;
-  animation: onloading 10s;
+  animation: onloading infinite 2s 0.5s;
 }
 
 #loading .dots .dot3 {
-  color: #bbc8e4;
-  animation: onloading 10s;
+  animation: onloading infinite 2s 1s;
 }
 
 @keyframes onloading {
-  0% {
-    .dot1 {
-      opacity: 1;
-    }
-    .dot2 {
-      opacity: 1;
-    }
-    .dot3 {
-      opacity: 1;
-    }
+  0%, 100% {
+    opacity: 1;
   }
-  30% {
-    .dot1 {
-      opacity: 0.4;
-    }
-    .dot2 {
-      opacity: 0.7;
-    }
-    .dot3 {
-      opacity: 1;
-    }
-  }
-  60% {
-    .dot1 {
-      opacity: 0.1;
-    }
-    .dot2 {
-      opacity: 0.4;
-    }
-    .dot3 {
-      opacity: 0.7;
-    }
-  }
-  90% {
-    .dot1 {
-      opacity: 0.4;
-    }
-    .dot2 {
-      opacity: 0.1;
-    }
-    .dot3 {
-      opacity: 0.4;
-    }
-  }
-  100% {
-    .dot1 {
-      opacity: 0.4;
-    }
-    .dot2 {
-      opacity: 0.1;
-    }
-    .dot3 {
-      opacity: 0.4;
-    }
+  50% {
+    opacity: 0.5;
   }
 }
 
