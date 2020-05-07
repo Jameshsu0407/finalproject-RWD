@@ -289,6 +289,7 @@ section#section_workers
     box-shadow: 0 0 20px rgba(0,0,0,0.1)
     margin-right: auto
     margin-left: auto
+    margin-bottom: 10px
     transition: 0.5s
     &:hover
       box-shadow: 10px 10px 30px rgba(0,0,0,0.1)
@@ -343,33 +344,26 @@ section#section_workers
         list-style: none
         padding: 0
         margin-bottom: 40px
-
-      // .buttons
-      //   margin: 0
-      //   position: relative
-
       .btn
         padding: 5px 10px
         letter-spacing: 2px
         position: absolute
         right: 4%
         bottom: 8%
-
+        &:focus
+          box-shadow: none
       .btnWebsite
         background-color: #ff7526
         &:hover
           background-color: #ff9156
           transition: 0.5s
-        // .btnNews
-        //   float: right
-        //   background-color: #fff
-        //   border: 1px solid #ccc
-        //   transition: 0.5s
-        //   &:hover
-        //     background-color: #eee
+        &:focus
+          outline: none
     a
       color: initial
       text-decoration: none
+      &:focus
+        outline: none
     
 // ------------------------------- 
 section#section_contact
