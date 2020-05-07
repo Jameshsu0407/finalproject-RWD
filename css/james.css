@@ -88,9 +88,9 @@ body {
     left: 50%;
     top: initial;
     transform: translateX(-50%);
-    bottom: -80%;
+    bottom: -50%;
     color: #555;
-    padding: 50px;
+    width: 150px;
   }
 }
 
@@ -554,5 +554,30 @@ body {
   position: absolute;
   top: -2%;
   left: -2%;
+}
+
+@media screen and (max-width: 991px) {
+  .topbar {
+    height: 60px;
+  }
+  .topbar .icon {
+    height: 40px;
+    margin: 10px;
+  }
+  .topbar input {
+    height: 35px;
+    width: calc( 100% - 50px - 30px);
+    margin-top: 12.5px;
+    background-color: #263961;
+    color: black;
+  }
+  .bottom_bar {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .bottom_bar p {
+    padding: 10px;
+    border-top: solid 1px rgba(0, 0, 0, 0.2);
+  }
 }
 /*# sourceMappingURL=james.css.map */
