@@ -38,30 +38,23 @@ body {
 }
 
 .midbar {
-  height: 45px;
+  height: 80px;
   background-color: #E9EBEE;
+  position: relative;
 }
 
 .midbar .personimg {
   width: 170px;
   height: 170px;
-  position: absolute;
-  top: 260px;
-  left: 180px;
   background-image: url("https://scontent.frmq3-2.fna.fbcdn.net/v/t1.0-1/p160x160/92129748_2983502355070968_6390273022703435776_o.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_ohc=zlzWCoLfvi0AX_DZDpT&_nc_ht=scontent.frmq3-2.fna&_nc_tp=6&oh=f97b1e386e8579178620176576ecb382&oe=5EC52D98");
   background-size: 100% auto;
   border: solid 4px white;
   padding: 50px;
+  position: absolute;
+  top: -120px;
 }
 
-@media screen and (max-width: 1024px) {
-  .midbar .personimg {
-    top: 20%;
-    left: 8%;
-  }
-}
-
-.names {
+.midbar .personimg .names {
   color: white;
   position: absolute;
   right: -130px;
@@ -69,17 +62,36 @@ body {
   transform: translateY(-50%);
 }
 
-.names h2, .names h5 {
+.midbar .personimg .names h2, .midbar .personimg .names h5 {
   margin: 0;
   text-align: center;
 }
 
-.names h2 {
+.midbar .personimg .names h2 {
   font-size: 34px;
 }
 
-.names h5 {
+.midbar .personimg .names h5 {
   font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .midbar {
+    height: 150px;
+  }
+  .midbar .personimg {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .midbar .personimg .names {
+    right: initial;
+    left: 50%;
+    top: initial;
+    transform: translateX(-50%);
+    bottom: -80%;
+    color: #555;
+    padding: 50px;
+  }
 }
 
 #bottom_left_first.experence {
@@ -542,71 +554,5 @@ body {
   position: absolute;
   top: -2%;
   left: -2%;
-}
-
-@media screen and (max-width: 768px) {
-  .topbar {
-    height: 60px;
-  }
-  .topbar .icon {
-    height: 40px;
-    margin: 10px;
-  }
-  .topbar input {
-    height: 35px;
-    width: calc( 100% - 50px - 30px);
-    margin-top: 12.5px;
-    background-color: #263961;
-    color: black;
-  }
-  .midbar {
-    white-space: nowrap;
-    height: 120px;
-  }
-  .midbar .personimg {
-    top: 26%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .midbar .names {
-    right: initial;
-    left: 50%;
-    top: initial;
-    transform: translateX(-50%);
-    bottom: -50%;
-    color: #555;
-  }
-  .bottom_bar {
-    margin-top: 0px;
-    width: 100%;
-  }
-  .bottom_bar p {
-    padding: 10px;
-    border-top: solid 1px rgba(0, 0, 0, 0.2);
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .midbar {
-    white-space: nowrap;
-    height: 120px;
-  }
-  .midbar .personimg {
-    top: 35%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-
-@media screen and (max-width: 330px) {
-  .midbar {
-    white-space: nowrap;
-    height: 120px;
-  }
-  .midbar .personimg {
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 }
 /*# sourceMappingURL=james.css.map */
