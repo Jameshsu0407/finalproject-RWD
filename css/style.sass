@@ -295,7 +295,7 @@ section#section_workers
       box-shadow: 10px 10px 30px rgba(0,0,0,0.1)
       transform: translate(-5px,-5px)
     .top
-      background-image: url(https://pic.pimg.tw/sidney6811/1529508979-1559019819_wn.jpg)
+      // background-image: url(https://pic.pimg.tw/sidney6811/1529508979-1559019819_wn.jpg)
       background-size: cover
       height: 330px
       position: relative
@@ -318,17 +318,18 @@ section#section_workers
     .top .tag
       width: 25px
       height: 50px
-      background-color: #ff7526
+      background-color: $color_yellow
       float: right
       margin-right: 20px
     .cirButton
-      width: 65px
-      height: 65px
-      background-color: #ff7526
+      width: 100px
+      height: 100px
+      // background-color: #ff7526
       border-radius: 50%
       position: absolute
       right: 20px
       bottom: -20px
+      background-size: cover
     .bottom
       padding: 10px 20px 20px 20px
       position: relative
@@ -350,12 +351,13 @@ section#section_workers
         position: absolute
         right: 4%
         bottom: 8%
+        font-size: 14px
         &:focus
           box-shadow: none
       .btnWebsite
-        background-color: #ff7526
+        background-color: $color_yellow
         &:hover
-          background-color: #ff9156
+          background-color: lighten($color_yellow,10% )
           transition: 0.5s
         &:focus
           outline: none
@@ -364,7 +366,8 @@ section#section_workers
       text-decoration: none
       &:focus
         outline: none
-    
+// ------------------------------- 
+
 // ------------------------------- 
 section#section_contact
   background-color: $color_blue

@@ -464,7 +464,6 @@ section#section_workers .box:hover {
 }
 
 section#section_workers .box .top {
-  background-image: url(https://pic.pimg.tw/sidney6811/1529508979-1559019819_wn.jpg);
   background-size: cover;
   height: 330px;
   position: relative;
@@ -495,19 +494,19 @@ section#section_workers .box .top .name .smalltxt {
 section#section_workers .box .top .tag {
   width: 25px;
   height: 50px;
-  background-color: #ff7526;
+  background-color: #f5d061;
   float: right;
   margin-right: 20px;
 }
 
 section#section_workers .box .cirButton {
-  width: 65px;
-  height: 65px;
-  background-color: #ff7526;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   position: absolute;
   right: 20px;
   bottom: -20px;
+  background-size: cover;
 }
 
 section#section_workers .box .bottom {
@@ -539,6 +538,7 @@ section#section_workers .box .bottom .btn {
   position: absolute;
   right: 4%;
   bottom: 8%;
+  font-size: 14px;
 }
 
 section#section_workers .box .bottom .btn:focus {
@@ -547,11 +547,11 @@ section#section_workers .box .bottom .btn:focus {
 }
 
 section#section_workers .box .bottom .btnWebsite {
-  background-color: #ff7526;
+  background-color: #f5d061;
 }
 
 section#section_workers .box .bottom .btnWebsite:hover {
-  background-color: #ff9156;
+  background-color: #f8de91;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
