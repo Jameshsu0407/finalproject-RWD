@@ -221,8 +221,14 @@ body {
   cursor: pointer;
 }
 
-#bottom_left_third.friends .friendspics.row .col-4 img {
-  padding: 2px;
+#bottom_left_third.friends .friendspics.row .col-4 a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+#bottom_left_third.friends .friendspics.row .col-4 a img {
+  padding: 3px;
 }
 
 #bottom_right_first.write {
@@ -507,6 +513,10 @@ body {
   outline: none;
 }
 
+#bottom_right_0401 .middle .hashtag {
+  font-weight: 600;
+}
+
 #bottom_right_0325 .middle .webs {
   margin-bottom: 16px;
 }
@@ -517,7 +527,7 @@ body {
   color: #3B5998;
 }
 
-#bottom_right_0325 .middle .webs .hashtag {
+#bottom_right_0325 .middle .hashtag {
   font-weight: 600;
 }
 

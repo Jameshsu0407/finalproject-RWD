@@ -63,32 +63,41 @@ html(lang="en")
                             .add 尋找朋友
                         .friendspics.row
                             .col-4.friendpic1
-                                img(src="./img/friendpic/friendpic1.jpg", alt="postpic").img-fluid
-                                span 扛轎的
+                                a(href="https://www.youtube.com/watch?v=EroOICwfD3g" target="_blank")
+                                    img(src="./img/friendpic/friendpic1.jpg", alt="postpic").img-fluid
+                                    span 扛轎的
                             .col-4.friendpic2
-                                img(src="./img/friendpic/friendpic2.png", alt="postpic").img-fluid
-                                span 善逸的謊言
+                                a(href="https://www.facebook.com/wecarekhtw/" target="_blank")
+                                    img(src="./img/friendpic/friendpic2.png", alt="postpic").img-fluid
+                                    span 善逸的謊言
                             .col-4.friendpic3
-                                img(src="./img/friendpic/friendpic3.jpg", alt="postpic").img-fluid
-                                span 嘉民
+                                a(href="https://www.youtube.com/watch?v=fQFC2Qaqg_c" target="_blank")
+                                    img(src="./img/friendpic/friendpic3.jpg", alt="postpic").img-fluid
+                                    span 嘉明
                             .col-4.friendpic4
-                                img(src="./img/friendpic/friendpic4.png", alt="postpic").img-fluid
-                                span Copy House
+                                a(href="https://www.dcard.tw/f/house/p/233576436" target="_blank")
+                                    img(src="./img/friendpic/friendpic4.png", alt="postpic").img-fluid
+                                    span Copy House
                             .col-4.friendpic5
-                                img(src="./img/friendpic/friendpic5.jpg", alt="postpic").img-fluid
-                                span 亞洲實幹王
+                                a(href="https://www.youtube.com/watch?v=okRkOdJXH_E" target="_blank")
+                                    img(src="./img/friendpic/friendpic5.jpg", alt="postpic").img-fluid
+                                    span 亞洲實幹王
                             .col-4.friendpic6
-                                img(src="./img/friendpic/friendpic6.jpg", alt="postpic").img-fluid
-                                span 氣炸姊
+                                a(href="https://www.youtube.com/watch?v=kvE0qSPS1kY" target="_blank")
+                                    img(src="./img/friendpic/friendpic6.jpg", alt="postpic").img-fluid
+                                    span 氣炸姊
                             .col-4.friendpic7
-                                img(src="./img/friendpic/friendpic7.jpeg", alt="postpic").img-fluid
-                                span 國師
+                                a(href="https://www.youtube.com/channel/UCK7LdglLCApOTaylxX8hW2Q" target="_blank")
+                                    img(src="./img/friendpic/friendpic7.jpeg", alt="postpic").img-fluid
+                                    span 國師
                             .col-4.friendpic8
-                                img(src="./img/friendpic/friendpic8.jpg", alt="postpic").img-fluid
-                                span 鹽酥英語
+                                a(href="https://www.youtube.com/channel/UCAsJVaqMX97EU8SOhtaKXgw" target="_blank")
+                                    img(src="./img/friendpic/friendpic8.jpg", alt="postpic").img-fluid
+                                    span 鹽酥英語
                             .col-4.friendpic9
-                                img(src="https://fakeimg.pl/150/", alt="postpic").img-fluid
-                                span 我是誰     
+                                a(href="https://www.youtube.com/watch?v=EroOICwfD3g" target="_blank")
+                                    img(src="https://fakeimg.pl/150/", alt="postpic").img-fluid
+                                    span 張怡文
                 .col-12.col-lg-8
                     #bottom_right_first.write
                         .topicon
@@ -128,6 +137,41 @@ html(lang="en")
                                 |公開
                                 i.fas.fa-caret-down
                             .button.publish 發佈
+                    #bottom_right_0401.post
+                        .top
+                            .photo
+                            .text
+                                .name 許家誠
+                                .date
+                                    |4月1日 下午1:47
+                                    i.fas.fa-globe-europe
+                                    i.fas.fa-caret-down
+                        .middle
+                            .text
+                                p 今天是愚人節～但今年好像都沒被騙，應該說不是被騙，而是完全沒人理嗚嗚嗚，變成邊緣人惹～
+                                p 最近在用Bootstrap寫一個衣服品牌的商店，目前還在努力，之後給大家看！
+                                p 現在在公司也算是慢慢步上軌道了，平日都有早會，用意是讓團隊成員了解今天彼此要做什麼事，有問題也可以互相討論。主管人也很好，很關心我的情況，而他們也有很多事情要忙，無法一一教導我，因此我都是自學居多，一開始真的很痛苦，毫無頭緒可言，但後來也就慢慢習慣了，即使為了搞懂一個東西要花很多時間，每天的進度會變得很慢，但這都是自己去摸索出來的東西，雖然慢但能確確實實記在腦海裡。
+                                p 喔對了，因為疫情的關係，我現在是在家工作喔～希望每個人都能平平安安的！
+                                .hashtag #米米的前端人生 #bootstrap #遠距上班 #WFH
+                        .bottom
+                            .see
+                                img(src="./img/like.png", alt="").img-fluid
+                                .people 氣炸姊、扛轎的和其他25人
+                            hr
+                            .feedback.row
+                                .col-4.like
+                                    i.far.fa-thumbs-up
+                                    span 讚
+                                .col-4.talk
+                                    i.far.fa-comments
+                                    span 留言
+                                .col-4.share
+                                    i.fas.fa-share
+                                    span 分享
+                            hr
+                            .message
+                                .photo
+                                input.speak(placeholder="留言......")
                     #bottom_right_0325.post
                         .top
                             .photo
@@ -144,19 +188,17 @@ html(lang="en")
                                 p 書中有教好多的語法，其中還介紹超好用的fontawesome解決icon的小問題～可以想像成他將icon變成文字，因此可以在css裡面直接調整文字大小、顏色等她就會跟著變化了～
                                 p 附上作品連結～這些都是用Bootstrap做的！（github當伺服器蠻好用的～
                                 .webs
-                                    a.weblink(href="https://jameshsu0407.github.io/web_DiamdiamBurger-RWD/")
+                                    a.weblink(href="https://jameshsu0407.github.io/web_DiamdiamBurger-RWD/" target="_blank")
                                         .webname 丹丹漢堡、
-                                    a.weblink(href="https://jameshsu0407.github.io/web_lesson.ads-RWD/")
+                                    a.weblink(href="https://jameshsu0407.github.io/web_lesson.ads-RWD/" target="_blank")
                                         .webname 課程廣告、
-                                    a.weblink(href="https://jameshsu0407.github.io/web_game.office.website.component-RWD/")
+                                    a.weblink(href="https://jameshsu0407.github.io/web_game.office.website.component-RWD/" target="_blank")
                                         .webname 齊天大聖亂遊記官方網站、
-                                    a.weblink(href="https://jameshsu0407.github.io/web_wedding.game.office-RWD/")
+                                    a.weblink(href="https://jameshsu0407.github.io/web_wedding.game.office-RWD/" target="_blank")
                                         .webname Wedding game、
-                                    a.weblink(href="https://jameshsu0407.github.io/web_blog-RWD/index.html")
+                                    a.weblink(href="https://jameshsu0407.github.io/web_blog-RWD/index.html" target="_blank")
                                         .webname 旅遊部落格
                                 .hashtag #米米的前端人生 #bootstrap #css #fontawesome
-                            .pic
-                                //- img(src="./img/postpic/bootstrapbook.jpg", alt="bootstrapbook")
                         .bottom
                             .see
                                 img(src="./img/like.png", alt="").img-fluid

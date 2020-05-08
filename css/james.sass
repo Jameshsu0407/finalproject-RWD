@@ -116,7 +116,6 @@ body
     background-color: #fff
     margin-top: 10px
     margin-bottom: 10px
-    // height: 500px
     .postpictitle
         padding: 5px
         display: flex
@@ -183,8 +182,12 @@ body
             align-items: center
             flex-direction: column
             cursor: pointer
-            img
-                padding: 2px
+            a
+                color: #000
+                text-decoration: none
+                text-align: center
+                img
+                    padding: 3px
 // ----------------------------------------------------------
 // 發布活動、編輯
 #bottom_right_first.write
@@ -387,6 +390,10 @@ body
 // 個別貼文編輯
 // *
 //     border: 1px solid #000
+#bottom_right_0401
+    .middle
+        .hashtag
+            font-weight: 600
 #bottom_right_0325
     .middle
         .webs
@@ -395,8 +402,8 @@ body
                 display: inline-block
                 text-decoration: none
                 color: $color_blue
-            .hashtag
-                font-weight: 600
+        .hashtag
+            font-weight: 600
 
 #bottom_right_0304
     .middle
