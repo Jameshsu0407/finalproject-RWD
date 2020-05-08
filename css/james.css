@@ -513,6 +513,20 @@ body {
   outline: none;
 }
 
+#bottom_right_0407 .middle .webs {
+  margin-bottom: 16px;
+}
+
+#bottom_right_0407 .middle .webs a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3B5998;
+}
+
+#bottom_right_0407 .middle .hashtag {
+  font-weight: 600;
+}
+
 #bottom_right_0401 .middle .hashtag {
   font-weight: 600;
 }
