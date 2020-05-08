@@ -588,7 +588,7 @@ body {
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 150px;
+  height: 350px;
 }
 
 #bottom_right_0302 .middle .pic #map {
@@ -596,6 +596,7 @@ body {
   position: absolute;
   top: -2%;
   left: -2%;
+  height: 350px;
 }
 
 @media screen and (max-width: 991px) {
