@@ -294,16 +294,24 @@ section#section_service {
   background-color: #ececec;
 }
 
-section#section_service .col-sm-4 {
-  text-align: center;
+section#section_service .col-sm-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 section#section_service h3 {
   color: #e6af2e;
 }
 
+section#section_service p {
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+
 section#section_service .icon_service {
-  width: 60%;
+  width: 100%;
 }
 
 section#section_works {
