@@ -513,6 +513,35 @@ body {
   outline: none;
 }
 
+#bottom_right_0429 .middle .vid {
+  margin-bottom: 16px;
+}
+
+#bottom_right_0429 .middle .webs {
+  margin-bottom: 16px;
+}
+
+#bottom_right_0429 .middle .webs a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3B5998;
+}
+
+#bottom_right_0429 .middle .pics {
+  margin-bottom: 5px;
+}
+
+#bottom_right_0429 .middle .pics img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+#bottom_right_0429 .middle .hashtag {
+  font-weight: 600;
+}
+
 #bottom_right_0422 .middle .webs {
   margin-bottom: 16px;
 }
