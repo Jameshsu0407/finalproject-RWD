@@ -301,10 +301,6 @@ section#section_service .col-sm-6 {
   flex-direction: column;
 }
 
-section#section_service h3 {
-  color: #e6af2e;
-}
-
 section#section_service p {
   line-height: 1.8;
   letter-spacing: 2px;
