@@ -168,13 +168,19 @@ html(lang="en")
                                         .webname 可愛的小人、
                                     a.weblink(href="https://cdpn.io/Jameshsu0407/debug/vYObxov/dXkqBNYBmGaM" target="_blank")
                                         .webname 美麗的城市
-                                .pics
-                                    img.pic1(src="./img/portfolio/coffeecard.png", alt="coffeecard")
-                                    img.pic2(src="./img/portfolio/illuminationbooks.png", alt="illuminationbooks")
-                                    img.pic3(src="./img/portfolio/resume.png", alt="resume")
-                                    img.pic4(src="./img/portfolio/gift.png", alt="gift")
-                                    img.pic5(src="./img/portfolio/cutepeople.png", alt="cutepeople")
-                                    img.pic6(src="./img/portfolio/beautifulcity.png", alt="beautifulcity")
+                                .pics.popup-gallery
+                                    a(href="./img/portfolio/coffeecard.png" title="咖啡名片")
+                                        img.pic1(src="./img/portfolio/coffeecard.png", alt="coffeecard")
+                                    a(href="./img/portfolio/illuminationbooks.png" title="浮光書店名片")
+                                        img.pic2(src="./img/portfolio/illuminationbooks.png", alt="illuminationbooks")
+                                    a(href="./img/portfolio/resume.png" title="履歷表")
+                                        img.pic3(src="./img/portfolio/resume.png", alt="resume")
+                                    a(href="./img/portfolio/gift.png" title="禮物們")
+                                        img.pic4(src="./img/portfolio/gift.png", alt="gift")
+                                    a(href="./img/portfolio/cutepeople.png" title="可愛的小人")
+                                        img.pic5(src="./img/portfolio/cutepeople.png", alt="cutepeople")
+                                    a(href="./img/portfolio/beautifulcity.png" title="美麗的城市")
+                                        img.pic6(src="./img/portfolio/beautifulcity.png", alt="beautifulcity")
                                 .hashtag #米米的前端人生 #遠距上班 #WFH #css #線上課程 #codepen
                         .bottom
                             .see
@@ -371,8 +377,9 @@ html(lang="en")
                                 p 而Bootstrap就是為了對付這麻煩的東西而生成的框架，如此一來在製作網頁時就不需要在css中更改在不同尺寸的大小，Bootstrap只要在class中輸入特定的字就可以完成啦～
                                 p 不過，嗚嗚嗚嗚，官方文件豪難看懂喔，都是英文，我在圖書館有借到一本書，希望有幫助！
                                 .hashtag #米米的前端人生 #bootstrap 
-                            .pic
-                                img(src="./img/postpic/bootstrapbook.jpg", alt="bootstrapbook")
+                            .pic.popup-gallery
+                                a(href="./img/postpic/bootstrapbook.jpg" title="讓響應式（RWD）網頁設計變簡單")
+                                    img(src="./img/postpic/bootstrapbook.jpg", alt="bootstrapbook")
                         .bottom
                             .see
                                 img(src="./img/like.png", alt="").img-fluid
@@ -466,9 +473,12 @@ html(lang="en")
                             .dot.dot1
                             .dot.dot2
                             .dot.dot3
+        //- jquery
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
         //- popup
         script(src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js")
         //- AOS
         script(src="https://unpkg.com/aos@next/dist/aos.js")
+        //- script
         script(src="./js/james.js")
 
