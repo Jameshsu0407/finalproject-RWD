@@ -8,6 +8,7 @@ html(lang="en")
         link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css")
         link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
         link(rel="stylesheet", href="https://unpkg.com/aos@next/dist/aos.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css")
     body
         .topbar
             img.icon(src="http://www.freeiconspng.com/uploads/images-facebook-f-logo-png-transparent-background-page-2-29.png")
@@ -22,7 +23,7 @@ html(lang="en")
                         h5.emg_name (James Hsu)
             .row
                 .col-12.col-lg-4
-                    #bottom_left_first.experence
+                    #bottom_left_first.experence(data-aos="fade-up")
                         p
                             i.fa.fa-briefcase
                             span &nbsp;在網軟擔任努力學習中的設計師<br>
@@ -33,7 +34,7 @@ html(lang="en")
                             i.fa.fa-plane
                             span &nbsp;現居台北市<br>
                             span.edit 編輯詳細資料
-                    #bottom_left_second.postpic
+                    #bottom_left_second.postpic(data-aos="fade-up")
                         .postpictitle
                             img(src="./img/picture.png", alt="")
                             span 相片
@@ -57,7 +58,7 @@ html(lang="en")
                                 img(src="https://fakeimg.pl/150/", alt="postpic").img-fluid
                             .col-4.postpic9
                                 img(src="https://fakeimg.pl/150/", alt="postpic").img-fluid
-                    #bottom_left_third.friends
+                    #bottom_left_third.friends(data-aos="fade-up")
                         .friendstitle
                             img(src="./img/friend.png", alt="")
                             span 朋友
@@ -100,7 +101,7 @@ html(lang="en")
                                     img(src="https://fakeimg.pl/150/", alt="postpic").img-fluid
                                     span 張怡文
                 .col-12.col-lg-8
-                    #bottom_right_first.write
+                    #bottom_right_first.write(data-aos="fade-up")
                         .topicon
                             ul
                                 li
@@ -138,7 +139,7 @@ html(lang="en")
                                 |公開
                                 i.fas.fa-caret-down
                             .button.publish 發佈
-                    #bottom_right_0422.post
+                    #bottom_right_0422.post(data-aos="fade-up")
                         .top
                             .photo
                             .text
@@ -170,6 +171,10 @@ html(lang="en")
                                 .pics
                                     img.pic1(src="./img/portfolio/coffeecard.png", alt="coffeecard")
                                     img.pic2(src="./img/portfolio/illuminationbooks.png", alt="illuminationbooks")
+                                    img.pic3(src="./img/portfolio/resume.png", alt="resume")
+                                    img.pic4(src="./img/portfolio/gift.png", alt="gift")
+                                    img.pic5(src="./img/portfolio/cutepeople.png", alt="cutepeople")
+                                    img.pic6(src="./img/portfolio/beautifulcity.png", alt="beautifulcity")
                                 .hashtag #米米的前端人生 #遠距上班 #WFH #css #線上課程 #codepen
                         .bottom
                             .see
@@ -190,7 +195,7 @@ html(lang="en")
                             .message
                                 .photo
                                 input.speak(placeholder="留言......")
-                    #bottom_right_0408.post
+                    #bottom_right_0408.post(data-aos="fade-up")
                         .top
                             .photo
                             .text
@@ -231,7 +236,7 @@ html(lang="en")
                             .message
                                 .photo
                                 input.speak(placeholder="留言......")
-                    #bottom_right_0407.post
+                    #bottom_right_0407.post(data-aos="fade-up")
                         .top
                             .photo
                             .text
@@ -269,7 +274,7 @@ html(lang="en")
                             .message
                                 .photo
                                 input.speak(placeholder="留言......")
-                    #bottom_right_0401.post
+                    #bottom_right_0401.post(data-aos="fade-up")
                         .top
                             .photo
                             .text
@@ -304,7 +309,7 @@ html(lang="en")
                             .message
                                 .photo
                                 input.speak(placeholder="留言......")
-                    #bottom_right_0325.post
+                    #bottom_right_0325.post(data-aos="fade-up")
                         .top
                             .photo
                             .text
@@ -350,7 +355,7 @@ html(lang="en")
                             .message
                                 .photo
                                 input.speak(placeholder="留言......")
-                    #bottom_right_0304.post
+                    #bottom_right_0304.post(data-aos="fade-up")
                         .top
                             .photo
                             .text
@@ -387,7 +392,7 @@ html(lang="en")
                             .message
                                 .photo
                                 input.speak(placeholder="留言......")
-                    #bottom_right_0303.post
+                    #bottom_right_0303.post(data-aos="fade-up")
                         .top
                             .photo
                             .text
@@ -421,7 +426,7 @@ html(lang="en")
                             .message
                                 .photo
                                 input.speak(placeholder="留言......")                   
-                    #bottom_right_0302.post
+                    #bottom_right_0302.post(data-aos="fade-up")
                         .top
                             .photo
                             .text
@@ -461,4 +466,9 @@ html(lang="en")
                             .dot.dot1
                             .dot.dot2
                             .dot.dot3
+        //- popup
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js")
+        //- AOS
+        script(src="https://unpkg.com/aos@next/dist/aos.js")
+        script(src="./js/james.js")
 

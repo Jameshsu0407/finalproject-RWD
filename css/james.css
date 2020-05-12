@@ -523,17 +523,15 @@ body {
   color: #3B5998;
 }
 
-#bottom_right_0422 .middle .pics {
-  margin-bottom: 10px;
-}
-
-#bottom_right_0422 .middle .pics .pic1 {
+#bottom_right_0422 .middle .pics .pic1, #bottom_right_0422 .middle .pics .pic4, #bottom_right_0422 .middle .pics .pic5, #bottom_right_0422 .middle .pics .pic6 {
   width: 100%;
   margin-bottom: 5px;
+  padding: 5px;
 }
 
-#bottom_right_0422 .middle .pics .pic2 {
+#bottom_right_0422 .middle .pics .pic2, #bottom_right_0422 .middle .pics .pic3 {
   width: 50%;
+  padding: 5px;
 }
 
 #bottom_right_0422 .middle .hashtag {
