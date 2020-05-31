@@ -483,7 +483,7 @@ section#section_workers .box .top .name .smalltxt {
 section#section_workers .box .top .tag {
   width: 25px;
   height: 50px;
-  background-color: #f5d061;
+  background-color: #e6af2e;
   float: right;
   margin-right: 20px;
 }
@@ -535,11 +535,11 @@ section#section_workers .box .bottom .btn:focus {
 }
 
 section#section_workers .box .bottom .btnWebsite {
-  background-color: #f5d061;
+  background-color: #e6af2e;
 }
 
 section#section_workers .box .bottom .btnWebsite:hover {
-  background-color: #f8de91;
+  background-color: #ebc05c;
   transition: 0.5s;
 }
 

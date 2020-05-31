@@ -4,6 +4,8 @@
 //   $(".loading").css("height","0px");
 //   $(".loading").css("width","0px");
 // },3000);
+AOS.init();
+
 $(window).ready(function(){
   $("#loading").css("display","none");
 })
