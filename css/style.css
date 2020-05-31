@@ -10,14 +10,6 @@ html, body {
   background-color: #ececec;
 }
 
-.show {
-  opacity: 1;
-}
-
-.hide {
-  opacity: 0;
-}
-
 #loading {
   z-index: 8;
   background-color: #282f44;
