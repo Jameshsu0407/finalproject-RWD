@@ -18,7 +18,7 @@ html, body {
   opacity: 0;
 }
 
-.loading {
+#loading {
   z-index: 8;
   background-color: #282f44;
   color: #e6af2e;
@@ -31,7 +31,7 @@ html, body {
   flex-direction: column;
 }
 
-.loading .loader {
+#loading .loader {
   border: 16px solid #282f44;
   border-top: 16px solid #e6af2e;
   border-radius: 50%;

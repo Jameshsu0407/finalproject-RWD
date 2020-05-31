@@ -1,9 +1,12 @@
-setTimeout(function(){
-  $(".loading").removeClass("show");
-  $(".loading").addClass("hide");
-  $(".loading").css("height","0px");
-  $(".loading").css("width","0px");
-},3000);
+// setTimeout(function(){
+//   $(".loading").removeClass("show");
+//   $(".loading").addClass("hide");
+//   $(".loading").css("height","0px");
+//   $(".loading").css("width","0px");
+// },3000);
+$(window).ready(function(){
+  $("#loading").css("display","none");
+})
 
 $(window).scroll(function(e){
     // console.log($(window).scrollTop());
