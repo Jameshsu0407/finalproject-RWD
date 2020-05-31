@@ -67,12 +67,21 @@ header
   background-color: $color_blue
   text-align: center
 
-  .logofont
+  .intership
     padding: 250px 0
     color: $color_white
-    font-size: 100px
-    font-family: 'Dancing Script'
-    font-weight: 700
+
+    h1
+      font-size: 60px
+      font-weight: 600
+    .off
+      display: none
+      font-size: 50px
+    @media screen and ( max-width: 768px )
+      .show
+        display: none
+      .off
+        display: block
     
   .marginbottom
     position: absolute
