@@ -432,6 +432,10 @@ body {
   margin-bottom: 20px;
 }
 
+.post .middle .hashtag {
+  font-weight: 600;
+}
+
 .post .bottom .see {
   display: flex;
   padding: 0 10px;
@@ -513,6 +517,14 @@ body {
   outline: none;
 }
 
+#bottom_right_0601 .middle .pics {
+  margin-bottom: 5px;
+}
+
+#bottom_right_0601 .middle .pics img {
+  width: 100%;
+}
+
 #bottom_right_0525 .middle .webs {
   margin-bottom: 16px;
 }
@@ -521,10 +533,6 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #3B5998;
-}
-
-#bottom_right_0520 .middle .hashtag {
-  font-weight: 600;
 }
 
 #bottom_right_0429 .middle .vid {
@@ -552,10 +560,6 @@ body {
   padding: 5px;
 }
 
-#bottom_right_0429 .middle .hashtag {
-  font-weight: 600;
-}
-
 #bottom_right_0422 .middle .webs {
   margin-bottom: 16px;
 }
@@ -577,10 +581,6 @@ body {
   padding: 5px;
 }
 
-#bottom_right_0422 .middle .hashtag {
-  font-weight: 600;
-}
-
 #bottom_right_0408 .middle .vid {
   margin-bottom: 16px;
 }
@@ -595,10 +595,6 @@ body {
   color: #3B5998;
 }
 
-#bottom_right_0408 .middle .hashtag {
-  font-weight: 600;
-}
-
 #bottom_right_0407 .middle .webs {
   margin-bottom: 16px;
 }
@@ -609,14 +605,6 @@ body {
   color: #3B5998;
 }
 
-#bottom_right_0407 .middle .hashtag {
-  font-weight: 600;
-}
-
-#bottom_right_0401 .middle .hashtag {
-  font-weight: 600;
-}
-
 #bottom_right_0325 .middle .webs {
   margin-bottom: 16px;
 }
@@ -625,10 +613,6 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #3B5998;
-}
-
-#bottom_right_0325 .middle .hashtag {
-  font-weight: 600;
 }
 
 #bottom_right_0304 .middle .hashtag {
