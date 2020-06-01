@@ -140,7 +140,7 @@ nav.navbar.at_top
   box-shadow: none
 
 .logobrand
-  width: 60%
+  max-width: 60%
 // -------------------------------
 section
   padding: 60px 0
@@ -296,6 +296,14 @@ section#section_works
       @media screen and ( max-width: 576px)
         height: auto
         width: 110%
+@media screen and ( max-width: 576px )
+  #section_works
+    .big
+      .texts
+        .content
+          display: none
+
+  
 // -------------------------------         
 section#section_workers
   background-color: $color_white
@@ -319,6 +327,8 @@ section#section_workers
     transition: 0.5s
     @media screen and ( max-width: 768px )
       width: 350px
+    @media screen and ( max-width: 576px )
+      width: 100%
     &:hover
       box-shadow: 10px 10px 30px rgba(0,0,0,0.1)
       transform: translate(-5px,-5px)

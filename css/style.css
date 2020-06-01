@@ -167,7 +167,7 @@ nav.navbar.at_top i {
 }
 
 .logobrand {
-  width: 60%;
+  max-width: 60%;
 }
 
 section {
@@ -414,6 +414,12 @@ section#section_works .work img {
   }
 }
 
+@media screen and (max-width: 576px) {
+  #section_works .big .texts .content {
+    display: none;
+  }
+}
+
 section#section_workers {
   background-color: #ececec;
 }
@@ -446,6 +452,12 @@ section#section_workers .box {
 @media screen and (max-width: 768px) {
   section#section_workers .box {
     width: 350px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  section#section_workers .box {
+    width: 100%;
   }
 }
 
