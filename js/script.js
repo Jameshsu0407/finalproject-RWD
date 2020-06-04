@@ -86,3 +86,4 @@ $(window).mousemove(function(evt){
   detect_cat("#cat_blue",pagex);
   detect_cat("#cat_grey",pagex);
 });  
+

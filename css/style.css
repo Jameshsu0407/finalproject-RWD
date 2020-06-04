@@ -682,6 +682,10 @@ section#section_contact textarea {
   width: 100%;
 }
 
+section#section_contact #map {
+  margin-bottom: 100px;
+}
+
 footer#footer {
   position: relative;
   background-color: #e6af2e;
