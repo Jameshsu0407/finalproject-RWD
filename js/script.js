@@ -38,21 +38,21 @@ $(window).mousemove(function(evt){
   
   // 手機版東西不會跑來跑去
   if($(window).width() > 576){
-    // 山移動
-    $(".mountain").css("transform","translateX("+(pagex/-20+50)+"px)");
-    
     // 文字移動
     $(".r1text").css("transform","translateX("+(y/-5)+"px)");
     $(".r2text").css("transform","translateX("+(y/-10)+"px)");
     $(".r3text").css("transform","translateX("+(y/-12)+"px)");
-    
-    // 三角形移動
-    $(".tri1").css("transform","translateX("+(x/-5)+"px)");
-    $(".tri2").css("transform","translateX("+(x/-10)+"px)");
-    $(".tri3").css("transform","translateX("+(x/-12)+"px)");
-    $(".tri4").css("transform","translateX("+(x/-14)+"px)");
-    $(".tri5").css("transform","translateX("+(x/-16)+"px)");
   }
+  
+  // 山移動
+  $(".mountain").css("transform","translateX("+(pagex/-20+50)+"px)");
+
+  // 三角形移動
+  $(".tri1").css("transform","translateX("+(x/-5)+"px)");
+  $(".tri2").css("transform","translateX("+(x/-10)+"px)");
+  $(".tri3").css("transform","translateX("+(x/-12)+"px)");
+  $(".tri4").css("transform","translateX("+(x/-14)+"px)");
+  $(".tri5").css("transform","translateX("+(x/-16)+"px)");
 
   // 叉叉一起動
   if(y<0 || y>$("#section_about").outerHeight())
