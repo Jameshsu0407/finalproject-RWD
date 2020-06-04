@@ -138,7 +138,11 @@ nav.navbar a, nav.navbar i {
 }
 
 nav.navbar a:hover, nav.navbar i:hover {
-  color: grey;
+  color: #e6af2e;
+}
+
+nav.navbar a.active {
+  color: #e6af2e;
 }
 
 nav.navbar button:foucs {
@@ -178,7 +182,13 @@ nav.navbar.at_top i {
 }
 
 .logobrand {
-  max-width: 60%;
+  width: 60%;
+}
+
+@media screen and (max-width: 332px) {
+  .logobrand {
+    width: 200px;
+  }
 }
 
 section {
@@ -313,7 +323,7 @@ section#section_service {
   background-color: #ececec;
 }
 
-section#section_service .col-sm-6 {
+section#section_service .col-md-6 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -462,7 +472,7 @@ section#section_workers .box {
 
 @media screen and (max-width: 768px) {
   section#section_workers .box {
-    width: 350px;
+    width: 100%;
   }
 }
 

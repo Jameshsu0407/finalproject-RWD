@@ -1,14 +1,9 @@
-// setTimeout(function(){
-//   $(".loading").removeClass("show");
-//   $(".loading").addClass("hide");
-//   $(".loading").css("height","0px");
-//   $(".loading").css("width","0px");
-// },3000);
-AOS.init();
-
+// loading
 $(window).ready(function(){
   $("#loading").css("display","none");
 })
+
+AOS.init();
 
 $(window).scroll(function(e){
     // console.log($(window).scrollTop());
@@ -90,19 +85,3 @@ $(window).mousemove(function(evt){
   detect_cat("#cat_blue",pagex);
   detect_cat("#cat_grey",pagex);
 });  
-
-var vm = new Vue({
-  el: "#app",
-  data: {
-    works: []
-  },
-  mounted: function(){
-    var vobj =this;
-    $.ajax({
-      url: "https://awiclass.monoame.com/api/command.php?type=get&name=projects",
-      success: function(res){
-        vobj.works=JSON.parse(res);
-      }
-    })
-  }
-})

@@ -20,13 +20,13 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#NAV">
   <div id="loading">
     <div class="loader"></div>
     <h2>正在載入頁面資料...</h2>  
   </div>
 
-  <nav class="navbar navbar-expand-md fixed-top navbar-top at_top drop_down">
+  <nav class="navbar navbar-expand-md fixed-top navbar-top at_top drop_down" id="NAV">
     <div class="container">
       <a class="navbar-brand" href="#header_index">
         <img src="./img/logo.png" alt="logo" class="logobrand">
@@ -37,11 +37,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto" id="navbarmenu">
-          <li class="nav-item"><a class="nav-link" href="#section_about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section_service">Service</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section_works">Works</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section_workers">Workers</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section_contact">Contact</a></li>
+          <li class="nav-item"><a href="#section_about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#section_service" class="nav-link">Service</a></li>
+          <li class="nav-item"><a href="#section_works" class="nav-link">Works</a></li>
+          <li class="nav-item"><a href="#section_workers" class="nav-link">Workers</a></li>
+          <li class="nav-item"><a href="#section_contact" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -57,7 +57,7 @@
     </div>
   </header>
 
-  <section id="section_about">
+  <section id="section_about" class="target">
     <img class="marginbottom" src="https://awiclass.monoame.com/img/margin/m_about.svg" alt="" />
     <img id="cat" src="http://awiclass.monoame.com/catpic/cat_lefttop.png" />
     <div id="cross"></div>
@@ -94,41 +94,41 @@
     </div>
   </section>
 
-  <section id="section_service">
+  <section id="section_service" class="target">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1>Service</h1>
         </div>
 
-        <div class="col-12 col-sm-6 order-1 order-sm-1" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-1 order-md-1" data-aos="fade-up">
           <img class="icon_service" src="./img/service/platform.svg" alt="整合平台" />
         </div>
-        <div class="col-12 col-sm-6 order-2 order-sm-2" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-2 order-md-2" data-aos="fade-up">
           <h3>NPO整合平台</h3>
           <p>NPO整合平台是針對非營利組織所研發的一套簡易快速架站軟體，輕輕鬆鬆為您架設屬於自己的網站，機構ｅ化的同時透過網際網路幫您把所有活動、服務訊息快速傳達至各地，透過網站互動功能增加民眾的參與感，建立機構形象並強化營利機構／非營利公益團體行銷整合能力。</p>
         </div>
 
-        <div class="col-12 col-sm-6 order-3 order-sm-4" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-3 order-md-4" data-aos="fade-up">
           <img class="icon_service" src="./img/service/app.svg" alt="應用軟體" />
         </div>
-        <div class="col-12 col-sm-6 order-4 order-sm-3" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-4 order-md-3" data-aos="fade-up">
           <h3>NPO應用軟體</h3>
           <p>我們整合金流服務、捐款人資料與收據，管理款項不再手忙腳亂！線上金流整合頁面上各式各樣的款項，串接不同線上機制；捐款管理系統讓使用者線上刷卡、超商付款，快速又方便；個案管理系統針對每個機構的需求訂製客製化服務；志工管理系統有效管理人力，發揮最大效能；會員管理系統輕鬆管理會員；會務行政系統整合人事、差勤、公文等內部流程，優化工作流程。</p>
         </div>
 
-        <div class="col-12 col-sm-6 order-5 order-sm-5" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-5 order-md-5" data-aos="fade-up">
           <img class="icon_service" src="./img/service/lecture.svg" alt="課程講座" />
         </div>
-        <div class="col-12 col-sm-6 order-6 order-sm-6" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-6 order-md-6" data-aos="fade-up">
           <h3>NPO課程講座</h3>
           <p>NPO課程講座免費提供NPO多元資訊化的課程內容，依各種類型邀請業界相關專業人士前來分享，有效提昇資訊化能力。如行銷力講座傳達非營利組織也能成為自媒體來行銷、經營機構；或是教導機構將財務資訊做好妥善處理並定期公告社會大眾，提升非營利組織的信任度。</p>
         </div>
 
-        <div class="col-12 col-sm-6 order-7 order-sm-8" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-7 order-md-8" data-aos="fade-up">
           <img class="icon_service" src="./img/service/cloud.svg" alt="雲端服務" />
         </div>
-        <div class="col-12 col-sm-6 order-8 order-sm-7" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-8 order-md-7" data-aos="fade-up">
           <h3>雲端解決方案</h3>
           <p>雲端服務提供迅速、方便、有效率，以最小的投資提供您最大的利益。我們提供了一系列的軟體解決了金流串接、公文表單管理、工作與會議管理、會計總帳系統、薪資管理系統、客戶關係管理系統等。</p>
         </div>
@@ -136,13 +136,13 @@
     </div>
   </section>
 
-  <section id="section_works">
+  <section id="section_works" class="target">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1>Works</h1>
         </div>
-        <div class="col-sm-6 work big" data-aos="fade-up">
+        <div class="col-12 col-md-6 work big" data-aos="fade-up">
           <img src="./img/work/work1.png" alt="work" class="img-fluid">
           <div class="texts">
             <a href="https://www.lourdes.org.tw/social_dialogue/Default.aspx" target="_blank">
@@ -151,9 +151,9 @@
             </a>
           </div>
         </div>
-        <div class="col-sm-6" data-aos="fade-up">
+        <div class="col-12 col-md-6" data-aos="fade-up">
           <div class="row">
-            <div class="col-sm-6 work">
+            <div class="col-md-6 work">
               <img src="./img/work/work2.png" alt="work">
               <div class="texts">
                 <a href="https://www.waker.org.tw/" target="_blank">
@@ -161,7 +161,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-sm-6 work">
+            <div class="col-md-6 work">
               <img src="./img/work/work3.png" alt="work">
               <div class="texts">
                 <a href="https://goodear.org.tw/" target="_blank">
@@ -169,7 +169,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-sm-6 work">
+            <div class="col-md-6 work">
               <img src="./img/work/work4.png" alt="work">
               <div class="texts">
                 <a href="http://www.ntuchf.org.tw/NTUCHF2019/" target="_blank">
@@ -177,7 +177,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-sm-6 work">
+            <div class="col-md-6 work">
               <img src="./img/work/work5.png" alt="work">
               <div class="texts">
                 <a href="https://kids.taipei/index_01.aspx" target="_blank">
@@ -191,7 +191,7 @@
     </div>
   </section>
 
-  <section id="section_workers">
+  <section id="section_workers" class="target">
     <img class="marginbottom mountain" src="https://awiclass.monoame.com/img/margin/m_works.svg" />
     <div class="container">
       <div class="row">
@@ -199,7 +199,7 @@
           <h1>Workers</h1>
         </div>
         <!-- 卡片一 -->
-        <div class="col-12 col-sm-6" data-aos="fade-up">
+        <div class="col-12 col-md-6" data-aos="fade-up">
           <div class="box">
             <div class="top" style="background-image: url(./img/indexpic/bg1.jpg);">
               <h2 class="name">
@@ -232,7 +232,7 @@
         </div>
 
         <!-- 卡片二 -->
-        <div id="jamescard" class="col-12 col-sm-6" data-aos="fade-up"> 
+        <div id="jamescard" class="col-12 col-md-6" data-aos="fade-up"> 
           <div class="box">
             <div class="top" style="background-image: url(./img/indexpic/bg2.jpeg);">
               <h2 class="name">
@@ -268,7 +268,7 @@
     </div>
   </section>
 
-  <section id="section_contact">
+  <section id="section_contact" class="target">
     <img class="cat" id="cat_blue" src="http://awiclass.monoame.com/catpic/cat_blue_cat.png" alt="" />
     <img class="cat" id="cat_grey" src="http://awiclass.monoame.com/catpic/cat_yellow_cat.png" alt="" />
     <img class="cat" id="cat_yellow" src="http://awiclass.monoame.com/catpic/cat_grey_cat.png" alt="" />
@@ -305,6 +305,14 @@
 <script src="./js/aos.js"></script>
 <!-- script -->
 <script src="./js/script.js"></script>
+<!-- 滑鼠移動時選單收合 -->
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var element = document.getElementById("navbarNav");
+    element.classList.remove("show");
+  }
+</script>
 </body>
 
 </html>
