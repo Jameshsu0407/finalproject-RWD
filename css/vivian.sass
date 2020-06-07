@@ -1,0 +1,504 @@
+$content_max_width: 1024px
+$color_lightblue: #E9EBEE
+$color_blue: #3B5998
+$color_white: #fff
+$color_black: #555
+$color_gray: #E9EBEE
+$break_width: 800px
+
+
+*
+//   border: solid 1px
+  vertical-align: top
+  font-family: 微軟正黑體
+  position: relative
+  box-sizing: border-box
+  
+html,body
+  margin: 0
+  padding: 0
+  background-color: $color_lightblue
+
+body
+    background-color: $color_gray !important
+    // height: 4000px
+// ----------------------------------------------------------  
+.topbar
+  height: 50px
+  background-color: $color_blue
+  .icon
+    height: 30px
+    margin: 10px
+    margin-left: 15px
+    margin-right: 5px
+    
+  input
+    height: 30px
+    margin: 10px
+    border: none
+    margin-left: 0px
+    width: 300px
+    border-radius: 5px
+    padding-left: 10px
+
+.cover
+  height: 350px
+  background: url("../img/fbvivian/FB.jpg")
+  background-position: 0 bottom
+  background-size: cover
+
+.midbar
+    height: 80px
+    background-color: $color_gray
+    position: relative
+    .personimg
+      width: 170px
+      height: 170px
+      background-image: url("../img/fbvivian/FBphoto.jpg")
+      background-size: 100% auto
+      border: solid 4px white
+      padding: 50px
+      position: absolute
+      top: -120px
+      .names
+          color: white
+          position: absolute
+          right: -130px
+          top: 50%
+          transform: translateY(-50%)
+          h2,h5
+            margin: 0
+            text-align: center
+          h2
+            font-size: 34px
+          h5
+            font-size: 16px
+@media screen and ( max-width: 991px )
+    .midbar
+        height: 150px
+        .personimg
+            left: 50%
+            transform: translateX(-50%)
+            .names
+                right: initial
+                left: 50%
+                top: initial
+                transform: translateX(-50%)
+                bottom: -50%
+                color: $color_black
+                width: 150px
+// ----------------------------------------------------------  
+// 個人經歷
+#bottom_left_first.experence
+  background-color: $color_white
+  color: $color_black
+  margin-top: 10px
+  padding: 20px
+  p
+    font-size: 13px
+    line-height: 25px
+    margin-bottom: 0
+    i
+      width: 20px
+      vertical-align: middle
+      text-align: center
+    span
+      vertical-align: middle
+
+  .edit
+      display: block
+      text-align: center
+      background-color: lighten($color_black,60% )
+      cursor: pointer
+// ----------------------------------------------------------
+// 照片區塊
+#bottom_left_second.postpic
+    background-color: #fff
+    margin-top: 10px
+    margin-bottom: 10px
+    .postpictitle
+        padding: 5px
+        display: flex
+        align-items: center
+        img
+            width: 30px
+            vertical-align: middle
+            margin: 0 2px
+        span
+            vertical-align: middle
+            margin: 0 2px
+            font-weight: 600
+        .add
+            margin-left: auto
+            font-weight: 300
+            font-size: 14px
+            color: $color_blue
+            cursor: pointer
+    .postpics.row
+        width: 100%
+        margin: 0
+        padding: 2px
+        .col-4
+            padding: 0
+            display: flex
+            justify-content: center
+            align-items: center
+            cursor: pointer
+            img
+                padding: 2px
+// ----------------------------------------------------------        
+// 朋友區塊
+#bottom_left_third.friends
+    background-color: #fff
+    margin-top: 10px
+    margin-bottom: 10px
+    // height: 500px
+    .friendstitle
+        padding: 5px
+        display: flex
+        align-items: center
+        img
+            width: 30px
+            vertical-align: middle
+            margin: 0 2px
+        span
+            vertical-align: middle
+            margin: 0 2px
+            font-weight: 600
+        .add
+            margin-left: auto
+            font-weight: 300
+            font-size: 14px
+            color: $color_blue
+            cursor: pointer
+    .friendspics.row
+        width: 100%
+        margin: 0
+        padding: 2px
+        .col-4
+            padding: 0
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            cursor: pointer
+            a
+                color: #000
+                text-decoration: none
+                text-align: center
+                img
+                    padding: 3px
+// ----------------------------------------------------------
+// 發布活動、編輯
+#bottom_right_first.write
+    margin-top: 10px
+    margin-bottom: 10px
+    background-color: #fff
+    position: relative
+    .topicon
+        background-color: lighten($color_black,60% )
+        border: 1px solid lighten($color_black,50% )
+        ul
+            margin-bottom: 0
+            padding: 0
+            li
+                display: inline-block
+                margin: 5px 10px
+                vertical-align: bottom
+                color: $color_blue
+                cursor: pointer
+                i
+                    vertical-align: initial
+                    color: #555
+                    font-size: 16px
+    .top
+        position: relative
+        display: flex
+        padding: 15px
+        .photo
+            width: 45px
+            height: 45px
+            background-image: url("../img/fbvivian/FBphoto.jpg")
+            background-size: cover
+            border-radius: 50%
+        .text
+            display: flex
+            align-items: center
+            margin-left: 10px
+    .icon
+        border-top: 1px solid lighten($color_black,60% )
+        border-bottom: 1px solid lighten($color_black,60% )
+        ul
+            margin-bottom: 0
+            margin: 2px 0
+            padding: 0
+            li
+                display: inline-block
+                margin: 5px 10px
+                border: 1px solid lighten($color_black,60% )
+                background-color: lighten($color_black,60% )
+                border-radius: 25px
+                padding: 4px 8px
+                cursor: pointer
+                @media screen and (max-width: $break_width)
+                    margin: 2px 2px
+                img
+                    width: 25px
+                    vertical-align: middle
+                    margin-right: 5px
+                span
+                    vertical-align: middle
+                    font-size: 16px
+    .btns
+        margin: 5px 0
+        padding: 5px
+        display: flex
+        flex-direction: row
+        justify-content: flex-end
+        cursor: pointer
+        .button
+            border: 1px solid lighten($color_black,60% )
+            background-color: lighten($color_black,60% )
+            border-radius: none
+            padding: 2px 15px
+            margin: 4px
+            vertical-align: bottom
+            i
+                vertical-align: initial
+                color: #555
+                font-size: 16px
+                margin: 0 2px
+        .publish
+            border: 1px solid lighten($color_blue,30% )
+            background-color: lighten($color_blue,30% )
+            color: $color_white
+// ----------------------------------------------------------
+// loading
+#loading
+    display: flex
+    justify-content: center
+    align-items: center
+    .dots
+        .dot
+            margin-top: 8px
+            margin-bottom: 20px
+            background-color: $color_blue
+            width: 16px
+            height: 16px
+            border-radius: 50%
+            display: inline-block
+        .dot1
+            animation: onloading infinite 2s
+        .dot2
+            animation: onloading infinite 2s 0.5s
+        .dot3
+            animation: onloading infinite 2s 1s
+@keyframes onloading
+    0%,100%
+        opacity: 1
+    50%
+        opacity: 0.5
+// ----------------------------------------------------------
+// 卡片共同樣式
+.post
+    background-color: #fff
+    margin-top: 10px
+    margin-bottom: 10px
+    // height: 350px
+    .top
+        display: flex
+        padding: 15px
+        .photo
+            width: 45px
+            height: 45px
+            background-image: url("../img/fbvivian/FBphoto.jpg")
+            background-size: cover
+            border-radius: 50%
+        .text
+            margin-left: 10px
+            .name
+                font-size: 16px
+                color: $color_blue
+                font-weight: 600
+            .date
+                font-size: 10px
+                color: $color_black
+            i
+                margin: 0 2px
+                vertical-align: initial
+    .middle
+        // height: 200px
+        padding: 0 20px
+        margin-bottom: 20px 
+    .bottom
+        .see
+            display: flex
+            padding: 0 10px
+            img
+                width: 25px
+                height: 25px
+                vertical-align: initial
+            .people
+                font-size: 14px
+                color: $color_black
+                vertical-align: middle
+                align-items: center
+        hr
+            border: 1px solid lighten($color_black,60% )
+            width: 100%
+        .feedback
+            color: $color_black
+            text-align: center
+            display: flex
+            justify-content: center
+            margin: 10px 0
+            cursor: pointer
+            i
+                vertical-align: initial
+                margin: 0 2px
+                font-size: 20px
+                text-align: center
+                color: $color_black
+            span
+                font-size: 16px
+                margin: 0 4px
+                color: $color_black
+        hr
+            border: 1px solid lighten($color_black,60% )
+            width: 100%
+            margin: 0
+        .message
+            display: flex
+            padding: 15px
+            .photo
+                width: 40px
+                height: 40px
+                background-image: url("../img/fbvivian/FBphoto.jpg")
+                background-size: cover
+                border-radius: 50%
+            .speak
+                margin-left: 10px
+                background-color: lighten($color_black,60% )
+                border: 1px solid lighten($color_black,60% )
+                width: 90%
+                border-radius: 20px
+                &::placeholder
+                    padding: 0 0 0 10px
+                &:focus
+                    outline: none
+// ----------------------------------------------------------
+// 個別貼文編輯
+// *
+//     border: 1px solid #000
+#bottom_right_0606
+    .middle
+        .pics
+            margin-bottom: 5px
+            img
+                width: 50%
+                display: block
+                margin: auto
+                padding: 5px
+
+        .hashtag
+            font-weight: 600
+
+#bottom_right_0530
+    .middle
+        .pic
+            padding: 10px 0
+            img
+                width: 50%
+                display: block
+                margin: auto
+        .hashtag
+            font-weight: 600
+
+#bottom_right_0518
+    .middle
+        .hashtag
+            font-weight: 600
+
+#bottom_right_0429
+    .middle
+        .hashtag
+            font-weight: 600
+        .pic
+            padding: 10px 0
+            img
+                width: 80%
+                display: block
+                margin: auto
+
+#bottom_right_0415
+    .middle
+        .hashtag
+            font-weight: 600
+        .pics
+            .pic1,.pic2
+            padding: 10px 0
+            img
+                width: 50%
+                padding: 5px
+    
+#bottom_right_0323
+    .middle
+        .hashtag
+            font-weight: 600
+
+#bottom_right_0302
+    .middle
+        .hashtag
+            font-weight: 600
+        .pic
+            padding: 10px 0
+            img
+                width: 50%
+                display: block
+                margin: auto
+
+#bottom_right_0210
+    .middle
+        .hashtag
+            font-weight: 600
+        
+#bottom_right_0203
+        .middle
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+
+            .pic
+                width: 100%
+                overflow: hidden
+                position: relative
+                height: 350px
+                #map
+                    width: 103%
+                    position: absolute
+                    top: -2%
+                    left: -2%
+                    height: 350px
+
+// ----------------------------------------------------------
+
+        
+@media screen and (max-width: 991px)
+  .topbar
+    height: 60px
+    .icon
+      height: 40px
+      margin: 10px
+    input
+      height: 35px
+      width: calc( 100% - 50px - 30px)
+      margin-top: 12.5px
+      background-color: darken($color_blue,15)
+      color: darken(white,100)
+  .bottom_bar
+    margin-top: 0px
+    width: 100%
+    p
+      padding: 10px
+      border-top: solid 1px rgba(black,0.2) 

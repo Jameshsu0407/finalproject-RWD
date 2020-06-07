@@ -1,0 +1,644 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #E9EBEE;
+}
+
+body {
+  background-color: #E9EBEE !important;
+}
+
+.topbar {
+  height: 50px;
+  background-color: #3B5998;
+}
+
+.topbar .icon {
+  height: 30px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.topbar input {
+  height: 30px;
+  margin: 10px;
+  border: none;
+  margin-left: 0px;
+  width: 300px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.cover {
+  height: 350px;
+  background: url("../img/fbvivian/FB.jpg");
+  background-position: 0 bottom;
+  background-size: cover;
+}
+
+.midbar {
+  height: 80px;
+  background-color: #E9EBEE;
+  position: relative;
+}
+
+.midbar .personimg {
+  width: 170px;
+  height: 170px;
+  background-image: url("../img/fbvivian/FBphoto.jpg");
+  background-size: 100% auto;
+  border: solid 4px white;
+  padding: 50px;
+  position: absolute;
+  top: -120px;
+}
+
+.midbar .personimg .names {
+  color: white;
+  position: absolute;
+  right: -130px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.midbar .personimg .names h2, .midbar .personimg .names h5 {
+  margin: 0;
+  text-align: center;
+}
+
+.midbar .personimg .names h2 {
+  font-size: 34px;
+}
+
+.midbar .personimg .names h5 {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .midbar {
+    height: 150px;
+  }
+  .midbar .personimg {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .midbar .personimg .names {
+    right: initial;
+    left: 50%;
+    top: initial;
+    transform: translateX(-50%);
+    bottom: -50%;
+    color: #555;
+    width: 150px;
+  }
+}
+
+#bottom_left_first.experence {
+  background-color: #fff;
+  color: #555;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+#bottom_left_first.experence p {
+  font-size: 13px;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+
+#bottom_left_first.experence p i {
+  width: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#bottom_left_first.experence p span {
+  vertical-align: middle;
+}
+
+#bottom_left_first.experence .edit {
+  display: block;
+  text-align: center;
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+#bottom_left_second.postpic {
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#bottom_left_second.postpic .postpictitle {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#bottom_left_second.postpic .postpictitle img {
+  width: 30px;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+#bottom_left_second.postpic .postpictitle span {
+  vertical-align: middle;
+  margin: 0 2px;
+  font-weight: 600;
+}
+
+#bottom_left_second.postpic .postpictitle .add {
+  margin-left: auto;
+  font-weight: 300;
+  font-size: 14px;
+  color: #3B5998;
+  cursor: pointer;
+}
+
+#bottom_left_second.postpic .postpics.row {
+  width: 100%;
+  margin: 0;
+  padding: 2px;
+}
+
+#bottom_left_second.postpic .postpics.row .col-4 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#bottom_left_second.postpic .postpics.row .col-4 img {
+  padding: 2px;
+}
+
+#bottom_left_third.friends {
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#bottom_left_third.friends .friendstitle {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#bottom_left_third.friends .friendstitle img {
+  width: 30px;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+#bottom_left_third.friends .friendstitle span {
+  vertical-align: middle;
+  margin: 0 2px;
+  font-weight: 600;
+}
+
+#bottom_left_third.friends .friendstitle .add {
+  margin-left: auto;
+  font-weight: 300;
+  font-size: 14px;
+  color: #3B5998;
+  cursor: pointer;
+}
+
+#bottom_left_third.friends .friendspics.row {
+  width: 100%;
+  margin: 0;
+  padding: 2px;
+}
+
+#bottom_left_third.friends .friendspics.row .col-4 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#bottom_left_third.friends .friendspics.row .col-4 a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+#bottom_left_third.friends .friendspics.row .col-4 a img {
+  padding: 3px;
+}
+
+#bottom_right_first.write {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+#bottom_right_first.write .topicon {
+  background-color: #eeeeee;
+  border: 1px solid #d5d5d5;
+}
+
+#bottom_right_first.write .topicon ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#bottom_right_first.write .topicon ul li {
+  display: inline-block;
+  margin: 5px 10px;
+  vertical-align: bottom;
+  color: #3B5998;
+  cursor: pointer;
+}
+
+#bottom_right_first.write .topicon ul li i {
+  vertical-align: initial;
+  color: #555;
+  font-size: 16px;
+}
+
+#bottom_right_first.write .top {
+  position: relative;
+  display: flex;
+  padding: 15px;
+}
+
+#bottom_right_first.write .top .photo {
+  width: 45px;
+  height: 45px;
+  background-image: url("../img/fbvivian/FBphoto.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#bottom_right_first.write .top .text {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#bottom_right_first.write .icon {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+#bottom_right_first.write .icon ul {
+  margin-bottom: 0;
+  margin: 2px 0;
+  padding: 0;
+}
+
+#bottom_right_first.write .icon ul li {
+  display: inline-block;
+  margin: 5px 10px;
+  border: 1px solid #eeeeee;
+  background-color: #eeeeee;
+  border-radius: 25px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  #bottom_right_first.write .icon ul li {
+    margin: 2px 2px;
+  }
+}
+
+#bottom_right_first.write .icon ul li img {
+  width: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#bottom_right_first.write .icon ul li span {
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#bottom_right_first.write .btns {
+  margin: 5px 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+#bottom_right_first.write .btns .button {
+  border: 1px solid #eeeeee;
+  background-color: #eeeeee;
+  border-radius: none;
+  padding: 2px 15px;
+  margin: 4px;
+  vertical-align: bottom;
+}
+
+#bottom_right_first.write .btns .button i {
+  vertical-align: initial;
+  color: #555;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+#bottom_right_first.write .btns .publish {
+  border: 1px solid #96abd6;
+  background-color: #96abd6;
+  color: #fff;
+}
+
+#loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading .dots .dot {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  background-color: #3B5998;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#loading .dots .dot1 {
+  animation: onloading infinite 2s;
+}
+
+#loading .dots .dot2 {
+  animation: onloading infinite 2s 0.5s;
+}
+
+#loading .dots .dot3 {
+  animation: onloading infinite 2s 1s;
+}
+
+@keyframes onloading {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.post {
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post .top {
+  display: flex;
+  padding: 15px;
+}
+
+.post .top .photo {
+  width: 45px;
+  height: 45px;
+  background-image: url("../img/fbvivian/FBphoto.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.post .top .text {
+  margin-left: 10px;
+}
+
+.post .top .text .name {
+  font-size: 16px;
+  color: #3B5998;
+  font-weight: 600;
+}
+
+.post .top .text .date {
+  font-size: 10px;
+  color: #555;
+}
+
+.post .top .text i {
+  margin: 0 2px;
+  vertical-align: initial;
+}
+
+.post .middle {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.post .bottom .see {
+  display: flex;
+  padding: 0 10px;
+}
+
+.post .bottom .see img {
+  width: 25px;
+  height: 25px;
+  vertical-align: initial;
+}
+
+.post .bottom .see .people {
+  font-size: 14px;
+  color: #555;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.post .bottom hr {
+  border: 1px solid #eeeeee;
+  width: 100%;
+}
+
+.post .bottom .feedback {
+  color: #555;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.post .bottom .feedback i {
+  vertical-align: initial;
+  margin: 0 2px;
+  font-size: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.post .bottom .feedback span {
+  font-size: 16px;
+  margin: 0 4px;
+  color: #555;
+}
+
+.post .bottom hr {
+  border: 1px solid #eeeeee;
+  width: 100%;
+  margin: 0;
+}
+
+.post .bottom .message {
+  display: flex;
+  padding: 15px;
+}
+
+.post .bottom .message .photo {
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/fbvivian/FBphoto.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.post .bottom .message .speak {
+  margin-left: 10px;
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.post .bottom .message .speak::placeholder {
+  padding: 0 0 0 10px;
+}
+
+.post .bottom .message .speak:focus {
+  outline: none;
+}
+
+#bottom_right_0606 .middle .pics {
+  margin-bottom: 5px;
+}
+
+#bottom_right_0606 .middle .pics img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+#bottom_right_0606 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0530 .middle .pic {
+  padding: 10px 0;
+}
+
+#bottom_right_0530 .middle .pic img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+#bottom_right_0530 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0518 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0429 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0429 .middle .pic {
+  padding: 10px 0;
+}
+
+#bottom_right_0429 .middle .pic img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+#bottom_right_0415 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0415 .middle .pics {
+  padding: 10px 0;
+}
+
+#bottom_right_0415 .middle .pics img {
+  width: 50%;
+  padding: 5px;
+}
+
+#bottom_right_0323 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0302 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0302 .middle .pic {
+  padding: 10px 0;
+}
+
+#bottom_right_0302 .middle .pic img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+#bottom_right_0210 .middle .hashtag {
+  font-weight: 600;
+}
+
+#bottom_right_0203 .middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#bottom_right_0203 .middle .pic {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 350px;
+}
+
+#bottom_right_0203 .middle .pic #map {
+  width: 103%;
+  position: absolute;
+  top: -2%;
+  left: -2%;
+  height: 350px;
+}
+
+@media screen and (max-width: 991px) {
+  .topbar {
+    height: 60px;
+  }
+  .topbar .icon {
+    height: 40px;
+    margin: 10px;
+  }
+  .topbar input {
+    height: 35px;
+    width: calc( 100% - 50px - 30px);
+    margin-top: 12.5px;
+    background-color: #263961;
+    color: black;
+  }
+  .bottom_bar {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .bottom_bar p {
+    padding: 10px;
+    border-top: solid 1px rgba(0, 0, 0, 0.2);
+  }
+}
+/*# sourceMappingURL=vivian.css.map */
