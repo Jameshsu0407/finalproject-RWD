@@ -343,7 +343,10 @@
   <script>
     function initMap() {
       var map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: 25.066713, lng: 121.522711 },
+        center: { lat: 25.066618, lng: 121.522687},
+        mapTypeControl: false,
+        // streetViewControl: false,
+        // zoomControl: false,
         zoom: 19,
         styles: [
   {
@@ -351,6 +354,28 @@
     "stylers": [
       {
         "color": "#1d2c4d"
+      },
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#282f44"
+      },
+      {
+        "visibility": "simplified"
+      }
+    ]
+  },
+  {
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "visibility": "simplified"
       }
     ]
   },
@@ -367,6 +392,15 @@
     "stylers": [
       {
         "color": "#1a3646"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -417,6 +451,14 @@
   },
   {
     "featureType": "poi",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
     "elementType": "geometry",
     "stylers": [
       {
@@ -443,73 +485,11 @@
     ]
   },
   {
-    "featureType": "poi.attraction",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.attraction",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.government",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.medical",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "visibility": "off"
-      },
-      {
-        "weight": 1.5
-      }
-    ]
-  },
-  {
     "featureType": "poi.park",
     "elementType": "geometry.fill",
     "stylers": [
       {
         "color": "#023e58"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
       }
     ]
   },
@@ -523,27 +503,20 @@
     ]
   },
   {
-    "featureType": "poi.place_of_worship",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.school",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
     "featureType": "road",
     "elementType": "geometry",
     "stylers": [
       {
         "color": "#304a7d"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -562,14 +535,6 @@
     "stylers": [
       {
         "color": "#1d2c4d"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "stylers": [
-      {
-        "visibility": "off"
       }
     ]
   },
@@ -606,6 +571,14 @@
     "stylers": [
       {
         "color": "#023e58"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -664,6 +637,22 @@
     ]
   }
 ]
+      });
+      // var marker = new google.maps.Marker({
+      //   position: { lat: 25.066618, lng: 121.522687 },
+      //   map: map,
+      //   icon: {
+      //     path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+      //     scale: 8
+      //   },
+      // });
+      var marker = new google.maps.Marker({
+        position: { lat: 25.066618, lng: 121.522687 },
+        map: map,
+        icon: {
+          url: "./img/indexpic/marker.svg"
+        },
+        animation: google.maps.Animation.BOUNCE
       });
     }
   </script>
