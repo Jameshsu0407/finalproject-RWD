@@ -46,7 +46,7 @@ body {
 .midbar .personimg {
   width: 170px;
   height: 170px;
-  background-image: url("https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.0-9/p960x960/92129748_2983502355070968_6390273022703435776_o.jpg?_nc_cat=101&_nc_sid=85a577&_nc_ohc=gFi2fv8ILLsAX-ViDxe&_nc_ht=scontent.ftpe8-2.fna&_nc_tp=6&oh=502ca07ea9cea4ad4bd1177857af72ed&oe=5EF2D89C");
+  background-image: url(../img/indexpic/worker2.jpg);
   background-size: 100% auto;
   border: solid 4px white;
   padding: 50px;
@@ -271,7 +271,7 @@ body {
 #bottom_right_first.write .top .photo {
   width: 45px;
   height: 45px;
-  background-image: url("https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.0-9/p960x960/92129748_2983502355070968_6390273022703435776_o.jpg?_nc_cat=101&_nc_sid=85a577&_nc_ohc=gFi2fv8ILLsAX-ViDxe&_nc_ht=scontent.ftpe8-2.fna&_nc_tp=6&oh=502ca07ea9cea4ad4bd1177857af72ed&oe=5EF2D89C");
+  background-image: url(../img/indexpic/worker2.jpg);
   background-size: cover;
   border-radius: 50%;
 }
@@ -402,7 +402,7 @@ body {
 .post .top .photo {
   width: 45px;
   height: 45px;
-  background-image: url("https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.0-9/p960x960/92129748_2983502355070968_6390273022703435776_o.jpg?_nc_cat=101&_nc_sid=85a577&_nc_ohc=gFi2fv8ILLsAX-ViDxe&_nc_ht=scontent.ftpe8-2.fna&_nc_tp=6&oh=502ca07ea9cea4ad4bd1177857af72ed&oe=5EF2D89C");
+  background-image: url(../img/indexpic/worker2.jpg);
   background-size: cover;
   border-radius: 50%;
 }

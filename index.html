@@ -264,7 +264,8 @@
                 </li>
               </ul>
 
-              <a class="btn btnWebsite" href="./james.html" target="_blank">前往網站</a>
+              <a class="btn btnWebsite" href="./james.html" target="_blank" style="right: 140px;">前往網站</a>
+              <a class="btn btnWebsite" href="https://jameshsu0407.github.io/" target="_blank">前往部落格</a>
             </div>
           </div>
         </div>
@@ -324,7 +325,7 @@
     }
   </script>
   <!-- 桌面版導覽列會往上縮 -->
-  <script>
+  <!-- <script>
     if ($(window).width() > 767) {
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function () {
@@ -338,7 +339,7 @@
         prevScrollpos = currentScrollPos;
       }
     }
-  </script>
+  </script> -->
 
   <script>
     function initMap() {
@@ -642,7 +643,8 @@
         position: { lat: 25.066618, lng: 121.522687 },
         map: map,
         icon: {
-          url: "./img/indexpic/marker.svg"
+          url: "./img/indexpic/marker.svg",
+          scaledSize: new google.maps.Size(50, 50), // scaled size
         },
         animation: google.maps.Animation.BOUNCE
       });
