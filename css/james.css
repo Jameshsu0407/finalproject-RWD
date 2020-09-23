@@ -517,6 +517,14 @@ body {
   outline: none;
 }
 
+#bottom_right_0920 .web {
+  margin-bottom: 16px;
+}
+
+#bottom_right_0920 .web a {
+  color: #3B5998;
+}
+
 #bottom_right_0601 .middle .pics {
   margin-bottom: 5px;
 }

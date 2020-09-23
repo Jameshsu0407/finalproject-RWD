@@ -59,8 +59,7 @@ body {
   position: absolute;
   right: -130px;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .midbar .personimg .names h2, .midbar .personimg .names h5 {
@@ -82,15 +81,13 @@ body {
   }
   .midbar .personimg {
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   .midbar .personimg .names {
     right: initial;
     left: 50%;
     top: initial;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     bottom: -50%;
     color: #555;
     width: 150px;
@@ -135,12 +132,8 @@ body {
 
 #bottom_left_second.postpic .postpictitle {
   padding: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #bottom_left_second.postpic .postpictitle img {
@@ -171,15 +164,9 @@ body {
 
 #bottom_left_second.postpic .postpics.row .col-4 {
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -195,12 +182,8 @@ body {
 
 #bottom_left_third.friends .friendstitle {
   padding: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #bottom_left_third.friends .friendstitle img {
@@ -231,19 +214,10 @@ body {
 
 #bottom_left_third.friends .friendspics.row .col-4 {
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   cursor: pointer;
 }
 
@@ -290,8 +264,6 @@ body {
 
 #bottom_right_first.write .top {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 15px;
 }
@@ -305,12 +277,8 @@ body {
 }
 
 #bottom_right_first.write .top .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 10px;
 }
 
@@ -355,16 +323,9 @@ body {
 #bottom_right_first.write .btns {
   margin: 5px 0;
   padding: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
   cursor: pointer;
 }
 
@@ -391,15 +352,9 @@ body {
 }
 
 #loading {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #loading .dots .dot {
@@ -413,27 +368,15 @@ body {
 }
 
 #loading .dots .dot1 {
-  -webkit-animation: onloading infinite 2s;
-          animation: onloading infinite 2s;
+  animation: onloading infinite 2s;
 }
 
 #loading .dots .dot2 {
-  -webkit-animation: onloading infinite 2s 0.5s;
-          animation: onloading infinite 2s 0.5s;
+  animation: onloading infinite 2s 0.5s;
 }
 
 #loading .dots .dot3 {
-  -webkit-animation: onloading infinite 2s 1s;
-          animation: onloading infinite 2s 1s;
-}
-
-@-webkit-keyframes onloading {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
+  animation: onloading infinite 2s 1s;
 }
 
 @keyframes onloading {
@@ -452,8 +395,6 @@ body {
 }
 
 .post .top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 15px;
 }
@@ -492,8 +433,6 @@ body {
 }
 
 .post .bottom .see {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 0 10px;
 }
@@ -508,9 +447,7 @@ body {
   font-size: 14px;
   color: #555;
   vertical-align: middle;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .post .bottom hr {
@@ -521,12 +458,8 @@ body {
 .post .bottom .feedback {
   color: #555;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 10px 0;
   cursor: pointer;
 }
@@ -552,8 +485,6 @@ body {
 }
 
 .post .bottom .message {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 15px;
 }
@@ -572,18 +503,6 @@ body {
   border: 1px solid #eeeeee;
   width: 90%;
   border-radius: 20px;
-}
-
-.post .bottom .message .speak::-webkit-input-placeholder {
-  padding: 0 0 0 10px;
-}
-
-.post .bottom .message .speak:-ms-input-placeholder {
-  padding: 0 0 0 10px;
-}
-
-.post .bottom .message .speak::-ms-input-placeholder {
-  padding: 0 0 0 10px;
 }
 
 .post .bottom .message .speak::placeholder {
@@ -747,19 +666,10 @@ body {
 }
 
 #bottom_right_0203 .middle {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #bottom_right_0203 .middle .pic {
